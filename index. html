@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Star Flinger</title>
+    <link rel="stylesheet" href="default.css">
+  </head>
+  <body>
+    <div id="mainmenu" class="menubox">
+      <button id="button_play">Play</button>
+      <button id="button_options">Options</button>
+      <button id="button_quit">Quit</button>
+    </div>
+    <div id="configmenu" class="menubox">
+      <div>
+        <label>Username</label>
+        <input id="config_username" type="text"/>
+      </div>
+      <div>
+        <label>Scaling</label>
+        <input id="config_scaling" type="number" min="0.1" max="2.0" step="0.05"/>
+      </div>
+    </div>
+    <script src="client.js" async></script>
+  </body>
+</html>
