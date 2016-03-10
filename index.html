@@ -19,9 +19,12 @@
         <label>Scaling</label>
         <input id="config_scaling" type="number" min="0.1" max="2.0" step="0.05"/>
       </div>
+      <div>
+        <button id="config_close">Close</button>
+      </div>
     </div>
-    <div id="credits" onclick="require('electron').shell.openExternal('http://twitter.com/red15')">
-      Crafted with &hearts; <a title="for Junah">by Red15</a>
+    <div id="credits" onclick="require('shell').openExternal('http://twitter.com/red15')">
+      Crafted with &hearts; <span title="for Junah">by Red15</span>
     </div>
     <script src="client.js" async></script>
   </body>
