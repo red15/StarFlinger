@@ -1,0 +1,13 @@
+{
+  "name": "star_flinger",
+  "version": "0.0.1",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.74.0",
+    "ammo.js": "kripken/ammo.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.10"
+  }
+}
